@@ -1,6 +1,7 @@
 import 'dart:io';
 void main() {
 var array=[1,2,3,21,6,4,7,78];
+array.sort();
 var median=(array.length/2).floor();
 if(array.length%2!=0){
 var median=array.length~/2;
